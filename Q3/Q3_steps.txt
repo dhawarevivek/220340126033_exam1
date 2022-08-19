@@ -1,0 +1,22 @@
+
+Go to AWS site and
+Login account 
+then, go to "IAM : Manage access to AWS resource" IAM Management Console
+then, go to access management
+then, click on users
+then, click on add users
+I gave user_name as "dev-iot-33"
+Select AWS credential type
+click on access key
+next, Attach existing policies directly
+attach policy named as AmazonEC2FullAccess
+then,
+add key and value then create the user
+CREATEd THE USER dev-iot-33
+This user is allowed to access only services related to EC2 as it is mentioned in question.
+I created a user named as dev-iot-31, if it tries to use other services than EC2,
+it will permission denied error popup will show in AWS account.
+
+
+
+
