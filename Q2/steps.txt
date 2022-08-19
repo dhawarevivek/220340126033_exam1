@@ -1,0 +1,10 @@
+Steps:-
+1. Login in aws console log in
+2. Create a ec2 instance
+3. While creating an ec2 instance select ubuntu-20.04 AMI 
+4. After that create instance 
+5. after creating the instance join inbound rules in security and make sure port number 22 and 1883 are only open ports
+6. and in instance click to connect and run the commands in your terminal 
+7. after that update and upgrade the ubuntu terminal
+8. install the mosquitto in the terminal 
+9. and run the mosquitto pub and sub on terminal
